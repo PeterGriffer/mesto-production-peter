@@ -8,7 +8,7 @@
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Mesto</title>
-    <script type="module" crossorigin src="./assets/index-2IHLXA1c.js"></script>
+    <script type="module" crossorigin src="./assets/index-BcsgFTMN.js"></script>
     <link rel="stylesheet" crossorigin href="./assets/index-DFQ3zIju.css">
   </head>
   <body class="page">
@@ -53,7 +53,7 @@
                 class="popup__input popup__input_type_name"
                 placeholder="Имя"
                 required
-              
+                pattern="[a-zA-Zа-яА-ЯёЁ \-]+" 
                 minlength="2"
                 maxlength="40"
                 data-error-message="Разрешены только латинские, кириллические буквы, знаки дефиса и пробелы"
@@ -99,6 +99,7 @@
                 required
                 minlength="2"
                 maxlength="30"
+                pattern="[a-zA-Zа-яА-ЯёЁ \-]+"
                 data-error-message="Разрешены только латинские, кириллические буквы, знаки дефиса и пробелы"
               />
               <span class="popup__error" id="place-name-error"></span>
